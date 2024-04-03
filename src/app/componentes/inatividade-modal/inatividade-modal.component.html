@@ -1,0 +1,12 @@
+<div class="backdrop"></div>
+
+<div class="modal-container">
+  <h1 class="black-text">Você está inativo há muito tempo!</h1>
+  <p class="black-text">
+    Parece que você está inativo há algum tempo. Para continuar usando o aplicativo, clique no botão abaixo.
+  </p>
+  <p class="red-text">{{ tempoRestante }}</p> 
+  <div class="button-container">
+    <button class="modal-button" (click)="fecharModal()">Continuar</button>
+  </div>
+</div>
